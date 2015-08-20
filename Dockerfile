@@ -11,6 +11,6 @@ WORKDIR /srv
 
 USER app
 
-CMD ["java", "-Xmx1g", "-XX:MaxPermSize=250m", "-Djava.awt.headless=true", "-jar", "youtrack.jar", "80"]
+CMD ["java", "-Xmx1g", "-XX:MaxPermSize=250m", "-Djava.awt.headless=true", "-jar", "youtrack.jar", "8080"]
 
 VOLUME /home/app
